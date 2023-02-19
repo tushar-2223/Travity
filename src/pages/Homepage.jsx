@@ -6,14 +6,14 @@ import { SearchPage } from '../components/SearchPage'
 import { Services } from '../components/Services'
 import { Packages } from '../components/Packages'
 import { Footer } from '../assets/Footer'
-import Plans from '../components/Plans'
+// import Plans from '../components/Plans'
 import Blog from '../components/Blog'
 
 function Homepage() {
   return (
     <>
       <Navbar />
-      <div className='bg-background bg-cover bg-top overflow-x-hidden'>
+      <div className='bg-background bg-top overflow-x-none md:overflow-x-hidden'>
         <div className='backdrop-blur-3xl'>
           <Herosection />
           <SearchPage />

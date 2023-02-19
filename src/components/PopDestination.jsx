@@ -3,16 +3,12 @@ import Header from '../assets/Header'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import CardActions from '@mui/material/CardActions';
 import { CardActionArea } from '@mui/material';
-import { Link } from 'react-router-dom';
-
-
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 function PopDestination() {
-
 
 
   const PopDestination = [
@@ -65,7 +61,7 @@ function PopDestination() {
 
           {PopDestination.map((item, index) => (
             <>
-              <Card sx={{ maxWidth: 345 }} className="mx-6 " key={index}>
+              <Card sx=''  className="mx-2 md:mx-5 w-[290px] md:w-[345px]" key={index}>
                 <CardActionArea>
                   <CardMedia
                     component="img"
@@ -90,6 +86,9 @@ function PopDestination() {
             </>
           ))}
 
+        </div>
+        <div className='text-center'>
+          <h1 className='my-4 font-semibold text-xl cursor-pointer'>show more <ArrowOutwardIcon/></h1>
         </div>
       </div>
     </div>

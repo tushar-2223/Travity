@@ -4,7 +4,7 @@ import { BsFacebook ,BsInstagram,BsTwitter,BsBehance} from "react-icons/bs";
 
 export const Footer = () => {
   return (
-    <div className='bg-blue-900/20 px-40 py-20 flex justify-around'>
+    <div className='bg-blue-900/20 px-40 py-20 flex justify-around flex-wrap'>
       <div className='flex flex-col justify-center items-center border-2 border-black/10 rounded-xl p-10'>
         <div className='logo'>
           <h1 className='text-4xl font-bold p-2'>TRAVITY</h1>

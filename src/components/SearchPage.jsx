@@ -9,7 +9,7 @@ export const SearchPage = () => {
   return (
     <>
       {/* // <div className='backdrop-blur-3xl'> */}
-      <div className='px-20 py-5 flex flex-col items-center'>
+      <div className='px-4 md:px-20 py-8 md:py-5 flex flex-col items-center'>
         <Header title="You are ready to book" />
         <div className=''>
           <Searchbar />
@@ -18,17 +18,17 @@ export const SearchPage = () => {
 
         {/* ai model */}
 
-        <section className='h-80 overflow-hidden w-screen bg-bg2 bg-cover my-10 px-40 border-2 rounded-tl-full rounded-br-full flex'>
+        <section className='h-auto md:h-80 w-screen overflow-hidden bg-blue-500/20 md:bg-bg2 bg-cover my-10 px-2 md:px-40 border-2 md:rounded-tl-full md:rounded-br-full rounded-2xl md:rounded-none flex flex-col md:flex-row'>
           
-          <div className='h-full relative left-40'>
-            <iframe className='h-full' src="https://embed.lottiefiles.com/animation/112236"></iframe>
+          <div className='h-full relative md:left-40 left-10'>
+            <iframe className='h-[300px] md:h-full' src="https://embed.lottiefiles.com/animation/112236"></iframe>
           </div>
 
-          <div className='w-full h-full flex justify-center items-center px-30 flex-col'>
-            <h1 className='font-extrabold text-4xl flex flex-col items-center leading-[50px]'>Generate your plan with our <span className=' bg-clip-text text-transparent inline-block bg-gradient-to-r from-blue-500 to-red-500'>AI Planner <img src={underline} className="translate-x-12 w-20" /></span></h1>
+          <div className='w-full h-full flex justify-center items-center px-2 md:px-30 text-center flex-col'>
+            <h1 className='text-white md:text-black font-extrabold text-3xl md:text-4xl block md:flex flex-col items-center leading-[50px]'>Generate your plan with our <span className=' bg-clip-text text-transparent inline-block bg-gradient-to-r from-blue-500 to-red-500'>AI Planner <img src={underline} className="translate-x-12 w-20" alt="underline"/></span></h1>
 
 
-            <Link to="/aiplanner" className='flex w-40 justify-between items-center border border-black m-4 font-bold text-xl  rounded-full p-3 hover:bg-blue-600/10'>Check out <ArrowOutwardIcon /></Link>
+            <Link to="/aiplanner" className='flex w-40 justify-between items-center border-2 bg-blue-300 md:bg-transparent md:border-black m-4 font-bold text-xl rounded-full p-3 hover:bg-blue-600/10'>Check out <ArrowOutwardIcon /></Link>
           </div>
 
         

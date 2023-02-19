@@ -6,6 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import CardActions from '@mui/material/CardActions';
 import { CardActionArea } from '@mui/material';
+import Marquee from "react-fast-marquee";
 
 const ServiceItem = [
     {
@@ -47,9 +48,9 @@ export const Services = () => {
         <div>
             <Header title="Our Services" />
 
-            <div className='max-w-screen overflow-x-auto my-5 scrollbar-hide mx-10 border-2 rounded-xl p-2'>
-                <div className=' track '>
-                    <div className='flex w-max'>
+            <div className='max-w-screen overflow-x-auto py-5 scrollbar-hide md:mx-10 border-2 rounded-xl p-2'>
+                 {/* <div className='carousel__slider'> */}
+                    <Marquee className='carousel__list flex w-max'> 
 
                         {
                             ServiceItem.map((item, index) => (
@@ -76,8 +77,8 @@ export const Services = () => {
                                 </>
                             ))
                         }
-                    </div>
-                </div>
+                     {/* </div> */}
+                </Marquee> 
             </div>
         </div>
 

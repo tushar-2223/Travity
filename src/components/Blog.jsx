@@ -5,14 +5,12 @@ import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
-import Collapse from '@mui/material/Collapse';
 import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import { red } from '@mui/material/colors';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 function Blog() {
@@ -48,7 +46,8 @@ function Blog() {
         <>
             <Header title="Our Blog" />
 
-            <div className='mx-[7rem] p-5 border-2 rounded-xl flex justify-around flex-wrap mb-10'>
+            <div className='pb-10'>
+            <div className='mx-[7rem] p-5 border-2 rounded-xl flex justify-around flex-wrap'>
                 {
                     BlogCard.map((item, index) => (
                         <>
@@ -92,6 +91,7 @@ function Blog() {
                     ))
                 }
 
+                </div>
             </div>
         </>
     )

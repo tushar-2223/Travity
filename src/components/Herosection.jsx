@@ -4,16 +4,16 @@ import bestbg2 from '../images/bestbg2.svg'
 
 function HeroSection() {
   return (
-    <div className='h-screen p-20 py-60 border-red-200'>
+    <div className='p-0 md:p-20 py-20 md:py-40'>
 
-      <img src={bestbg2} alt="ill" className='absolute -z-10 top-0 right-0 h-[120vh] translate-x-20 -translate-y-10'/>
+      <img src={bestbg2} alt="ill" className='invisible md:visible absolute -z-10 top-0 right-0 h-[110vh] md:translate-x-20 md:-translate-y-5'/>
 
       <div className='container'>
 
-        <div className="tagline__section w-[50%] flex justify-center items-start px-[60px] flex-col">
-          <h1 className='font-extrabold text-7xl leading-[70px]'>Plan Your Dream <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-pink-600'>Journey </span>with Us</h1>
+        <div className="tagline__section w-full md:w-1/2 ms flex justify-center items-start p-2 md:px-[60px] flex-col gap-4 md:gap-2">
+          <h1 className='font-extrabold text-7xl leading-[80px] md:leading-[70px]'>Plan Your Dream <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-pink-600'>Journey </span>with Us</h1>
 
-          <h6 className='text-xl py-2 font-bold'>Check out our best Packages</h6>
+          <h6 className='text-xl py-2 font-bold'>Adventure Awaits, Go Find It.</h6>
 
           <a href="#packages" className='font-bold p-3  bg-gradient-to-l from-green-500 to-blue-500 border-2 rounded-full'>Our Packages</a>
         </div>
