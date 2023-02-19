@@ -7,21 +7,24 @@
 *{
     font-family: 'Poppins', sans-serif;
     text-shadow: 0 2px 4px rgb(13 0 77 / 8%), 0 3px 6px rgb(13 0 77 / 8%), 0 8px 16px rgb(13 0 77 / 8%);
+    scroll-behavior: smooth;
 }
+
 
 
   
   .track {
 
     width: 100%;
-
     white-space: nowrap;
     will-change: transform;
-    animation: marquee 10s linear infinite;
+    animation: marquee 30s linear infinite;
   }
   
   @keyframes marquee {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
+    0% { transform: translateX(0)}
+    50% {transform: translateX(-50%)}
+    100% { transform: translateX(0%) } 
+ /* 0%{transform :translateX(0%)} */
   }
   

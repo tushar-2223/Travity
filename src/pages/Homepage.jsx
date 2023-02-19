@@ -7,6 +7,7 @@ import { Services } from '../components/Services'
 import { Packages } from '../components/Packages'
 import { Footer } from '../assets/Footer'
 import Plans from '../components/Plans'
+import Blog from '../components/Blog'
 
 function Homepage() {
   return (
@@ -19,7 +20,8 @@ function Homepage() {
           <PopDestination />
           <Services />
           <Packages />
-          <Plans/>
+          {/* <Plans /> */}
+          <Blog/>
         </div>
       </div>
       <Footer/>
