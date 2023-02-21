@@ -50,8 +50,7 @@ export const Services = () => {
 
             <div className='max-w-screen overflow-x-auto py-5 scrollbar-hide md:mx-10 border-2 rounded-xl p-2'>
                  {/* <div className='carousel__slider'> */}
-                    <Marquee className='carousel__list flex w-max'> 
-
+                    <Marquee className='carousel__list flex w-max' speed={60} gradientColor='false'> 
                         {
                             ServiceItem.map((item, index) => (
                                 <>

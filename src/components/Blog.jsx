@@ -46,8 +46,8 @@ function Blog() {
         <>
             <Header title="Our Blog" />
 
-            <div className='pb-10'>
-            <div className='mx-[7rem] p-5 border-2 rounded-xl flex justify-around flex-wrap'>
+            <div className='pb-10 px-2 md:px-0'>
+            <div className='md:mx-[7rem] p-5 border-2 rounded-xl flex justify-around flex-wrap'>
                 {
                     BlogCard.map((item, index) => (
                         <>

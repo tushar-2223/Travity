@@ -7,11 +7,10 @@ export const Packages = () => {
         <div id='packages'>
             <Header title="Our best Packages" />
 
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center items-center px-2 md:px-0'>
                 <div className='bg-white/90 rounded-xl border-2'>
                     <div className='flex flex-wrap py-5 px-5'>
-                        <div className='w-[400px] pr-5'>
-
+                        <div className='w-full md:w-[400px] md:pr-5'>
                             <div className='bg-delhi bg-cover w-full h-[30rem] rounded-xl mb-5 p-2 bg-blue-600/10 overflow-hidden hover:border-4 hover:border-gray-900'>
                                 <div className='h-full w-full p-7 flex items-end justify-between'>
                                     <div>
@@ -38,7 +37,7 @@ export const Packages = () => {
                         </div>
 
 
-                        <div className='w-[400px] pr-5'>
+                        <div className='w-full md:w-[400px] md:pr-5'>
 
                             <div className='bg-himalya bg-cover w-full h-[20rem] rounded-xl mb-5 p-2 bg-blue-600/10 overflow-hidden hover:border-4 hover:border-gray-900'>
                                 <div className='h-full w-full p-7 flex items-end justify-between'>
@@ -67,7 +66,7 @@ export const Packages = () => {
 
                         </div>
 
-                        <div className='w-[400px]'>
+                        <div className='w-full md:w-[400px]'>
 
                             <div className='bg-gujarat bg-cover w-full h-[51rem] rounded-xl mb-5 p-2 bg-blue-600/10 overflow-hidden hover:border-4 hover:border-gray-900'>
                                 <div className='h-full w-full p-7 flex items-end justify-between'>

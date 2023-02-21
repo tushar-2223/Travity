@@ -51,12 +51,12 @@ function PopDestination() {
 
 
   return (
-    <div className='overflow-auto'>
+    <div className='overflow-auto '>
 
       <Header title="Popular Destination" />
 
-      <div className='max-w-screen overflow-x-auto my-5 scrollbar-hide'>
-        <div className='flex w-max'>
+      <div className='max-w-screen overflow-x-auto my-5 scrollbar-hide '>
+        <div className='flex w-max '>
 
 
           {PopDestination.map((item, index) => (
@@ -87,11 +87,12 @@ function PopDestination() {
           ))}
 
         </div>
-        <div className='text-center'>
+      
+      </div>
+      <div className='text-center'>
           <h1 className='my-4 font-semibold text-xl cursor-pointer'>show more <ArrowOutwardIcon/></h1>
         </div>
       </div>
-    </div>
   )
 }
 
