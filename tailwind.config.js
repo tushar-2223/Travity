@@ -13,7 +13,7 @@ module.exports = {
         'background': "url('./images/leafbackground2.svg')",
         'bg2': "url('./images/bg2.svg')",
         
-        // packahge
+        // Packages
 
         'himalya': "url('https://images.newindianexpress.com/uploads/user/imagelibrary/2022/10/29/w1200X800/himalaya_1.jpg')",
         'delhi': "url('https://static.toiimg.com/photo/msid-92060804,width-96,height-65.cms')",
