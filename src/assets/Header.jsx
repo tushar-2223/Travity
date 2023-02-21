@@ -5,8 +5,8 @@ function Header({ title }) {
     
     return (
         <motion.div
-            initial={{ x: -50, opacity: 0 }}
-            transition={{ duration: 2 }}
+            initial={{ x: -20, opacity: 0 }}
+            transition={{ duration: 0.5 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{once:true}}
         >

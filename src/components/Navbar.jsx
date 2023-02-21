@@ -12,7 +12,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className='fixed bg-white/90 w-full flex justify-between item-center px-10 md:px-20 border-b-2 z-20'>
+            <nav className='fixed bg-white/90 w-full flex justify-between item-center px-5 md:px-20 border-b-2 z-20'>
                 <div className="logo">
                     <h1 className='h-full flex item-center justify-center text-3xl md:text-4xl font-bold p-4'>TRAVITY</h1>
                 </div>
@@ -42,11 +42,11 @@ function Navbar() {
 
                 {/* responsive */}
 
-                {/* <div className='flex md:hidden justify-center items-center cursor-pointer' onClick={togglenav}>
+                <div className='flex md:hidden justify-center items-center cursor-pointer'>
                     <button className='flex justify-center items-center p-2 border-2 border-gray-600/30 rounded-lg hover:border-blue-300'>
                         <HiMenuAlt1 size={30} />
                     </button>
-                </div> */}
+                </div>
             </nav>
 
             {/* responsive nav */}

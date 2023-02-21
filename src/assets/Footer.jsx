@@ -4,7 +4,7 @@ import { BsFacebook ,BsInstagram,BsTwitter,BsBehance} from "react-icons/bs";
 
 export const Footer = () => {
   return (
-    <div className='bg-blue-900/20 px-40 py-20 flex justify-around flex-wrap'>
+    <div className='bg-blue-900/20 px-40 py-20 flex justify-around flex-wrap gap-10 md:gap-0'>
       <div className='flex flex-col justify-center items-center border-2 border-black/10 rounded-xl p-10'>
         <div className='logo'>
           <h1 className='text-4xl font-bold p-2'>TRAVITY</h1>
@@ -26,7 +26,7 @@ export const Footer = () => {
         </ul>
       </div>
 
-      <div className='rounded-xl'>
+      <div className='rounded-xl text-center'>
         <h1 className='py-5 text-2xl font-bold text-blue-800'>Subscribe</h1>
         <div>
           <input type="email"  className='w-80 outline-none border-2 rounded-xl p-2'/>

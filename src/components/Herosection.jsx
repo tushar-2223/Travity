@@ -12,8 +12,8 @@ function HeroSection() {
       <div className='container'>
 
         <motion.div
-            initial={{ x: -50, opacity: 0 }}
-            transition={{ duration: 1.2 }}
+            initial={{ x: -20, opacity: 0 }}
+            transition={{ duration: 0.5 }}
             whileInView={{ opacity: 1, x: 0 }}
 
           className="tagline__section w-full md:w-1/2 ms flex justify-center items-start p-2 md:px-[60px] flex-col gap-4 md:gap-2">

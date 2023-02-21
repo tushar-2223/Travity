@@ -18,7 +18,7 @@ export const SearchPage = () => {
 
         {/* ai model */}
 
-        <section className='h-auto md:h-80 w-screen overflow-hidden bg-blue-500/20 md:bg-bg2 bg-cover my-10 px-2 md:px-40 border-2 md:rounded-tl-full md:rounded-br-full rounded-2xl md:rounded-none flex flex-col md:flex-row'>
+        <section className='h-auto md:h-80 w-full overflow-hidden bg-blue-500/20 md:bg-bg2 bg-cover my-10 px-2 md:px-40 border-2 md:rounded-tl-full md:rounded-br-full rounded-2xl md:rounded-none flex flex-col md:flex-row'>
           
           <div className='h-full flex justify-center items-center '>
             <iframe className='h-[300px] md:h-full' src="https://embed.lottiefiles.com/animation/112236"></iframe>
