@@ -55,13 +55,13 @@ function PopDestination() {
 
       <Header title="Popular Destination" />
 
-      <div className='max-w-screen overflow-x-auto my-5 scrollbar-hide '>
+      <div className='max-w-screen overflow-x-auto my-5 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent py-4'>
         <div className='flex w-max '>
 
 
           {PopDestination.map((item, index) => (
             <>
-              <Card sx=''  className="mx-2 md:mx-5 w-[290px] md:w-[345px]" key={index}>
+              <Card sx='' className="mx-2 md:mx-5 w-[290px] md:w-[345px]" key={index}>
                 <CardActionArea>
                   <CardMedia
                     component="img"
